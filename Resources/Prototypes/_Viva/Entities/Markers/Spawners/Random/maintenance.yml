@@ -1,0 +1,27 @@
+- type: entityTable
+  id: MaintsSecretSopTable
+  table: !type:GroupSelector
+    children:
+      # Lvl1 Secret SOP
+      - id: BookClearance1
+        weight: 85       
+      # Lvl2
+      - id: BookClearance2
+        weight: 10
+      # Lvl3
+      - id: BookClearance3
+        weight: 5
+
+- type: entity
+  name: Maint Loot Spawner
+  id: MaintenanceSecretSopSpawner
+  suffix: Secret SOP
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      sprite: Objects/Fun/bikehorn.rsi
+      state: icon
+    - type: EntityTableSpawner
+      table: !type:NestedSelector
+        tableId: MaintsSecretSopTable
+        prob: 0.6

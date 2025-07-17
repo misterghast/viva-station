@@ -162,6 +162,10 @@
     # Recursive
     - id: ClosetMaintenanceFilledRandom
       prob: 0.01
+    # Viva Secret SOP
+    - !type:NestedSelector
+      tableId: MaintsSecretSopTable
+      prob: .075
 
 - type: entity
   id: ClosetMaintenanceFilledRandom
