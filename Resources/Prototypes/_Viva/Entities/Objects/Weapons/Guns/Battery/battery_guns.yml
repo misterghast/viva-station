@@ -55,3 +55,26 @@
   - type: SurgeryTool # Shitmed
     endSound:
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+
+- type: entity
+  name: CCD Disabler SMG
+  parent: [ WeaponDisablerSMG , BaseCCDContraband ]
+  id: WeaponCCDDisablerSMG
+  description: A highly advanced disabler SMG. Due to the time loop the internal battery is stuck in, this weapon never runs out of charge. The particle flow of the weapon can also be inverted, allowing the energy bolts to bolster a target rather than weaken.
+  components:
+  - type: Sprite
+    sprite: _Viva/Objects/Weapons/Guns/Battery/ccd_disabler_smg.rsi
+    layers:
+      - state: base
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisablerSmg
+    fireCost: 1
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 10
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: BulletDisablerSmg
+      fireCost: 1
+    - proto: ReversedBulletDisablerSmg
+      fireCost: 1

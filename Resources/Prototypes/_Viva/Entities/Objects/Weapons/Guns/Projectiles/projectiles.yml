@@ -1,0 +1,12 @@
+- type: entity
+  name: reversed disabler bolt smg
+  id: ReversedBulletDisablerSmg
+  parent: BulletDisablerSmg
+  components:
+  - type: StaminaDamageOnCollide
+    damage: -15
+  - type: Sprite
+    sprite: _Viva/Objects/Weapons/Guns/Projectiles/ccd_disabler.rsi
+    layers:
+    - state: omnilaser
+      shader: unshaded
