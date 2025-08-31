@@ -23,6 +23,8 @@
 
   [bold]8.[/bold] The Captain may not promote any personnel to the position of Nanotrasen Representative or Blueshield Officer;
 
+  [bold]9.[/bold] The Captain is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
+
   # Head of Personnel
 
   [bold]1.[/bold] The Head of Personnel is expected to clear any promotions or departmental transfers with the heads of said departments beforehand;
@@ -32,6 +34,8 @@
   [bold]3.[/bold] The Head of Personnel is expected to assist the Captain in any orders assigned by Central Command, alongside assisting in locating anti-Nanotrasen Sympathies;
 
   [bold]4.[/bold] The Head of Personnel may not promote any personnel to the position of Nanotrasen Representative or Blueshield Officer;
+
+  [bold]5.[/bold] The Head of Personnel is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
 
   # Head of Security
 
@@ -43,6 +47,9 @@
 
   [bold]4.[/bold] The Head of Security is expected to be armed with both a lethal and non-lethal weapon at all times;
 
+  [bold]5.[/bold] The Head of Security is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
+
+
   # Quartermaster
 
   [bold]1.[/bold] The Quartermaster is expected to purchase any required materials for other heads to complete any orders assigned by Central Command;
@@ -52,6 +59,9 @@
   [bold]3.[/bold] The Quartermaster is not required to follow the guidelines put in place for Cargo Technicians;
 
   [bold]4.[/bold] The Quartermaster is allowed to sell any object regardless of its origins if needed;
+
+  [bold]5.[/bold] The Quartermaster is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
+
 
   # Research Director
 
@@ -63,6 +73,8 @@
 
   [bold]4.[/bold] The Research Director is allowed to perform experiments on crew members in conjunction with the CMO;
 
+  [bold]5.[/bold] The Research Director is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
+
   # Chief Engineer
 
   [bold]1.[/bold] The Chief Engineer is allowed to disable power in areas on the station if ordered to by Central Command;
@@ -70,6 +82,8 @@
   [bold]2.[/bold] The Chief Engineer is allowed to declare an area "Condemned" if it would be unprofitable to fix it;
 
   [bold]3.[/bold] The Chief Engineer is permitted to take and use the fire axe whenever they see fit;
+
+  [bold]4.[/bold] The Chief Engineer is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
 
 
   # Chief Medical Officer
@@ -84,6 +98,7 @@
 
   [bold]5.[/bold] Alongside the normal allowances, the Chief Medical Officer is also permitted to create poisonous or explosive chemicals if ordered to by Central Command;
 
+  [bold]6.[/bold] The Chief Medical Officer is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
 
   # Nanotrasen Representative
 
@@ -95,6 +110,8 @@
 
   [bold]4.[/bold] The Nanotrasen Representative is expected to report all SoP violations to both security and Central Command;
 
+  [bold]5.[/bold] The Nanotrasen Representative is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
+
   # Blueshield Officer
 
   [bold]1.[/bold] The Blueshield Officer is expected to protect all members of Command with their life;
@@ -102,4 +119,13 @@
   [bold]2.[/bold] The Blueshield Officer is expected to follow all orders from Command unless it runs contrary to requirement 1;
 
   [bold]3.[/bold] The Blueshield Officer is expected to assist the Captain in locating any anti-Nanotrasen sympathies;
+
+  [bold]4.[/bold] The Blueshield Officer is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
+
+   # Internal Affairs Agent
+  [bold]1.[/bold] The Internal Affairs Agent is expected to follow all orders from Central Command;
+
+  [bold]2.[/bold] The Internal Affairs Agent is expected to assist the Nanotrasen Representative in enforcing all Standard Operating Procedures and maintainingthe secrecy of classified Standard Operating Procedures;
+
+  [bold]3.[/bold] The Internal Affairs Agent is expected to follow crew-facing Standard Operating Procedure in the presence of crew;
 </Document>

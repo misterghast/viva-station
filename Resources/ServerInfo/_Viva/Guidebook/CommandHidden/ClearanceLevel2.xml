@@ -23,6 +23,8 @@
 
   [bold]8.[/bold] The Captain may not promote any personnel to the position of Nanotrasen Representative or Blueshield Officer;
 
+  [bold]9.[/bold] The Captain is expected to follow crew-facing Standard Operating Procedure in the presence of crew and Clearance Level 1 Standard Operating Procedure in the presence of clearance level 1 command;
+
   # Head of Personnel
 
   [bold]1.[/bold] The Head of Personnel is expected to clear any promotions or departmental transfers with the heads of said departments beforehand;
@@ -32,6 +34,8 @@
   [bold]3.[/bold] The Head of Personnel is expected to assist the Captain in any orders assigned by Central Command, alongside assisting in locating anti-Nanotrasen Sympathies;
 
   [bold]4.[/bold] The Head of Personnel may not promote any personnel to the position of Nanotrasen Representative or Blueshield Officer;
+
+  [bold]9.[/bold] The Head of Personel is expected to follow crew-facing Standard Operating Procedure in the presence of crew and Clearance Level 1 Standard Operating Procedure in the presence of clearance level 1 command;
 
   # Head of Security
 
@@ -45,6 +49,8 @@
 
   [bold]5.[/bold] The Head of Security is expected to terminate any crewmembers that commit a capital offence;
 
+  [bold]6.[/bold] The Head of Security is expected to follow crew-facing Standard Operating Procedure in the presence of crew and Clearance Level 1 Standard Operating Procedure in the presence of clearance level 1 command;
+
   # Nanotrasen Representative
 
   [bold]1.[/bold] The Nanotrasen Representative is expected to follow all orders from Central Command;
@@ -55,6 +61,8 @@
 
   [bold]4.[/bold] The Nanotrasen Representative is expected to report all SoP violations to both security and Central Command;
 
+  [bold]5.[/bold] The Nanotrasen Representative is expected to follow crew-facing Standard Operating Procedure in the presence of crew and Clearance Level 1 Standard Operating Procedure in the presence of clearance level 1 command;
+
   # Blueshield Officer
 
   [bold]1.[/bold] The Blueshield Officer is expected to protect all members of Command with their life;
@@ -62,4 +70,13 @@
   [bold]2.[/bold] The Blueshield Officer is expected to follow all orders from Command unless it runs contrary to requirement 1;
 
   [bold]3.[/bold] The Blueshield Officer is expected to assist the Captain in dealing with any anti-Nanotrasen sympathies;
+
+  [bold]4.[/bold] The Nanotrasen Representative is expected to follow crew-facing Standard Operating Procedure in the presence of crew and Clearance Level 1 Standard Operating Procedure in the presence of clearance level 1 command;
+
+  # Internal Affairs Agent
+  [bold]1.[/bold] The Internal Affairs Agent is expected to follow all orders from Central Command;
+
+  [bold]2.[/bold] The Internal Affairs Agent is expected to assist the Nanotrasen Representative in enforcing all Standard Operating Procedures and maintainingthe secrecy of classified Standard Operating Procedures;
+
+  [bold]3.[/bold] The Internal Affairs Agent is expected to follow crew-facing Standard Operating Procedure in the presence of crew and Clearance Level 1 Standard Operating Procedure in the presence of clearance level 1 command;
 </Document>

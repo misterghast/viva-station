@@ -50,3 +50,6 @@
   storage:
     back:
     - Flash
+    - BookClearance1 #VivaStation
+    - BookClearance2 #VivaStation
+    - BookClearance3 #VivaStation

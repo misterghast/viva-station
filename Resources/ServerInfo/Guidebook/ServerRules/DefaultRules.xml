@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-﻿<Document>
-  # Vivastation Rules
-=======
+
 <!--
 SPDX-FileCopyrightText: 2024 Aiden <aiden@djkraz.com>
 SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
@@ -18,8 +15,8 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Funky Station Rules
->>>>>>> 4d0851958bd0aef48ea9da388435214fd11b0896
+# VivaStation Rules
+=======
 
   Space Station 14 and by extension Vivastation is a roleplaying game, and while there are many gameplay elements you are also expected to play a character.
 
@@ -36,6 +33,7 @@ SPDX-License-Identifier: MIT
   - [textlink="9. No End-Of-Round Griefing (EORG)." link="RuleViva9"]
   - [textlink="10. Don't Misuse Ahelps." link="RuleViva10"]
   - [textlink="11. Check before roleplaying uncomfortable stuff." link="RuleViva11"]
+  - [textlink="12. These Rules are Not Final." link="RuleViva12"]
 
   ## Round Canonicity
 
