@@ -76,6 +76,8 @@
 # SPDX-FileCopyrightText: 2025 Cymric22 <seanadams305@gmail.com>
 # SPDX-FileCopyrightText: 2025 DevilishMilk <michaellapjr@gmail.com>
 # SPDX-FileCopyrightText: 2025 Mish <bluscout78@yahoo.com>
+# SPDX-FileCopyrightText: 2025 PurpleTranStar <tehevilduckiscoming@gmail.com>
+# SPDX-FileCopyrightText: 2025 Rainbow <ev0lvkitten@gmail.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 ThatOneMoon <juozas.dringelis@gmail.com>
@@ -83,9 +85,13 @@
 # SPDX-FileCopyrightText: 2025 corresp0nd <46357632+corresp0nd@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 deltanedas <@deltanedas:kde.org>
 # SPDX-FileCopyrightText: 2025 mkanke-real <mikekanke@gmail.com>
+# SPDX-FileCopyrightText: 2025 mqole <113324899+mqole@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
+# SPDX-FileCopyrightText: 2025 rosieposie <52761126+rosieposieeee@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2025 willowzeta <willowzeta632146@proton.me>
+# SPDX-FileCopyrightText: 2025 wilowzeta <willowzeta632146@proton.me>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -118,6 +124,8 @@
     - id: CargoTechFabCircuitboard
     - id: OxygenTankFilled
     - id: NitrogenTankFilled
+    - id: RadioHandheldCargo #funkystation
+    - id: RadioHandheldCommand #funkystation
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -151,6 +159,7 @@
     - id: SpaceCash1000
     - id: WeaponDisabler
     - id: ClothingEyesGlassesCommand
+    - id: RadioHandheldCommand #funkystation
     # Viva
     - id: BookClearance2
 
@@ -241,7 +250,10 @@
     # - id: WeaponDisabler
     - id: WeaponDisablerPlus # funkystation adding unique hop weapon
     - id: ClothingEyesHudCommand
+    - id: SOSCartridge # DeltaV - adds SOS app https://github.com/DeltaV-Station/Delta-v/pull/2812
     - id: PDA_cartridge_case
+    - id: RadioHandheldService #funkystation
+    - id: RadioHandheldCommand #funkystation
     # Viva
     - id: BookClearance2
 
@@ -275,8 +287,11 @@
     - id: RubberStampCE
     - id: BaseHandheldStationMapPowerCe
     - id: RPD # RPD
+    - id: RadioHandheldEngineering #funkystation
+    - id: RadioHandheldCommand #funkystation
     # Viva
     - id: BookClearance1
+
 # Hardsuit table, used for suit storage as well
 - type: entityTable
   id: FillChiefEngineerHardsuit
@@ -335,12 +350,14 @@
     - id: CargoRequestMedicalComputerCircuitboard
     - id: MedkitFilled
     - id: RubberStampCMO
+    - id: RadioHandheldMedical #funkystation
+    - id: RadioHandheldCommand #funkystation
     # Goobstation
     #- id: CloningPodMachineCircuitboard
     - id: MedicalScannerMachineCircuitboard
     #- id: CloningConsoleComputerCircuitboard
     - id: BiomassReclaimerMachineCircuitboard
-    #- id: MedTekCartridge #funky - medtek removal
+    - id: MedTekCartridge
     # Shitmed
     - id: MedicalBiofabMachineBoard
     - id: AutoclaveFlatpack # DV
@@ -399,10 +416,11 @@
     - id: ResearchComputerCircuitboard
     - id: CargoRequestScienceComputerCircuitboard
     - id: RubberStampRd
-    - id: EncryptionKeyBinary # goobstation - readd the cool binary channel access. fuck you.
     - id: AnomalyLocator # GoobStation - adding anomaly locator to the RD locker to reduce the amount of anoms that crit
     - id: CigarCase
       prob: 0.15 # GoobStation - RD needs cigs for uhh... science...
+    - id: RadioHandheldScience #funkystation
+    - id: RadioHandheldCommand #funkystation
     # Viva
     - id: BookClearance1
 
@@ -467,6 +485,7 @@
     - id: WeaponDisabler
     - id: WantedListCartridge
     - id: DrinkHosFlask
+    - id: RadioHandheldCommand #funkystation, no sec radio since they start with one
     # Viva
     - id: BookClearance2
 
@@ -522,3 +541,5 @@
     - id: SpaceCash1000
     - id: BeachBall
     - id: BikeHorn
+    - id: RadioHandheldCommand #funkystation
+    - id: RadioHandheldEmergency #funkystation
