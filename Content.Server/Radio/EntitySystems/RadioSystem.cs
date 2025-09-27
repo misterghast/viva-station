@@ -176,10 +176,6 @@ public sealed class RadioSystem : EntitySystem
             if (attemptEv.Cancelled)
                 continue;
 
-            // Imp original - edited to correct behavior for IPCs and Silicons
-            if (channel.IntercomOnly && !(HasComp<IntercomComponent>(radioSource) || HasComp<SiliconLawBoundComponent>(radioSource)))
-                continue;
-
             // send the message
             RaiseLocalEvent(receiver, ref ev);
         }

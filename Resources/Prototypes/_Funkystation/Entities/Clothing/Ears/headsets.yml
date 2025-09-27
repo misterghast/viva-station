@@ -37,7 +37,6 @@
   name: reporter headset
   description: A headset for the most important role on-station barring the Clown.
   components:
-  - type: IntercomOnlyBypass #have fun
   - type: Sprite
     sprite: _Funkystation/Clothing/Ears/Headsets/reporter.rsi
   - type: ContainerFill
