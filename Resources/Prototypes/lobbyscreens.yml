@@ -66,13 +66,13 @@
 #  id: TerminalStation
 #  background: /Textures/LobbyScreens/terminalstation.webp
 
-#- type: lobbyBackground
-#  id: JustAWeekAway
-#  background: /Textures/LobbyScreens/justaweekaway.webp
+- type: lobbyBackground
+  id: JustAWeekAway
+  background: /Textures/LobbyScreens/justaweekaway.webp
 
-#- type: lobbyBackground
-#  id: JaniShootout
-#  background: /Textures/LobbyScreens/janishootout.webp
+- type: lobbyBackground
+  id: JaniShootout
+  background: /Textures/LobbyScreens/janishootout.webp
 
 - type: lobbyBackground
   id: ReclaimerNuke
@@ -82,21 +82,21 @@
   id: GoobHeretic
   background: /Textures/LobbyScreens/heretic.webp
 
-- type: lobbyBackground
-  id: funkyCirnoChef
-  background: /Textures/LobbyScreens/cirnochef.webp
+# - type: lobbyBackground
+#   id: funkyCirnoChef
+#   background: /Textures/LobbyScreens/cirnochef.webp
 
 - type: lobbyBackground
   id: funkyComputerLove
   background: /Textures/LobbyScreens/computerlove.webp
 
-- type: lobbyBackground
-  id: funkyTOFUNK
-  background: /Textures/LobbyScreens/TOFUNK.webp
+# - type: lobbyBackground
+#   id: funkyTOFUNK
+#   background: /Textures/LobbyScreens/TOFUNK.webp
 
-- type: lobbyBackground
-  id: funkOps
-  background: /Textures/LobbyScreens/funkops.webp
+# - type: lobbyBackground
+#   id: funkOps
+#   background: /Textures/LobbyScreens/funkops.webp
 
 - type: lobbyBackground
   id: doomDeed
@@ -107,24 +107,20 @@
   background: /Textures/LobbyScreens/typicalDay.webp
 
 - type: lobbyBackground
-  id: funkysci
-  background: /Textures/LobbyScreens/funkysci.webp
-
-- type: lobbyBackground
   id: rats
   background: /Textures/LobbyScreens/rats.webp
 
-- type: lobbyBackground
-  id: cirnoStation
-  background: /Textures/LobbyScreens/cirnostation.webp
-
-- type: lobbyBackground
-  id: usualsuspects
-  background: /Textures/LobbyScreens/usualsuspects.webp
+# - type: lobbyBackground
+#   id: usualsuspects
+#   background: /Textures/LobbyScreens/usualsuspects.webp
 
 - type: lobbyBackground
   id: termina
   background: /Textures/LobbyScreens/TERMINA.webp
+
+- type: lobbyBackground
+  id: cargomajor
+  background: /Textures/LobbyScreens/cargomajor.webp
 
 - type: lobbyBackground
   id: ratburgers

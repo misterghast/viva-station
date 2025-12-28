@@ -1,0 +1,24 @@
+- type: entity
+  parent: [ ClothingHeadHardsuitBase, BaseCCDContraband ]
+  id: CCDProjectedHelmet
+  name: CCD Jacket Projected Hardlight Helmet
+  description: A invisible helmet of projected hardlight.
+  components:
+  - type: Sprite
+    sprite: _Viva/Clothing/Head/jacketprojection.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    clothingVisuals:
+      head:
+      - state: equipped-head
+  - type: HideLayerClothing
+    slots: []
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.005
+    coolingCoefficient: 0.005
+  - type: FireResistance
+    damageCoefficient: 0.2

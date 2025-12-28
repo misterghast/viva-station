@@ -1,0 +1,181 @@
+
+- type: entity
+  parent: [ BaseItem, BaseGunWieldable, BaseCentcommContraband ]
+  id: WeaponSniperGamblagator
+  name: EX-520
+  description: A monstrously powerful experimental laser rifle. Outfitted with a scope, it requires special capacitive cells to be fired.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    sprite: _DV/Objects/Weapons/Guns/Snipers/gamblagator.rsi
+  - type: Clothing
+    sprite: _DV/Objects/Weapons/Guns/Snipers/gamblagator.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - backStorage
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 0.7
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_DV/Weapons/Guns/Gunshots/gamblagatorshot.ogg
+  - type: MagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: GamblagatorCapacitor
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+          - GamblagatorCartridge
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 5
+    pvsIncrease: 0.5
+  - type: GunRequiresWield
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.3
+    sprintModifier: 0.3
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+
+- type: entity
+  name: PDW-9 Energy Pistol
+  parent: [ BaseWeaponBatterySmall, BaseCentcommContraband ]
+  id: WeaponEnergyGunPistol
+  description: A military grade sidearm developed by Nanotrasen, developed for CentComm officials as an alternative to the pulse pistol. It sports a slow self-recharging battery, and variable firemodes.
+  components:
+  - type: Sprite
+    sprite: _DV/Objects/Weapons/Guns/Battery/energygun_pistol.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mode-disabler
+      shader: unshaded
+      map: [ "Firemode" ]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
+  - type: Gun
+    soundGunshot:
+      path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+  - type: Battery
+    maxCharge: 900
+    startingCharge: 900
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisabler
+    fireCost: 50
+  - type: EnergyGun
+    fireModes:
+    - proto: BulletDisabler
+      fireCost: 50
+      name: disable
+      state: disabler
+    - proto: BulletEnergyGunLaser
+      fireCost: 100
+      name: lethal
+      state: lethal
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 20
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.EnergyGunFireModeVisuals.State:
+        Firemode:
+          Disabler: { state: mode-disabler }
+          Lethal: { state: mode-lethal }
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: StaticPrice
+    price: 750
+
+#- type: entity
+#  name: X-01 Multiphase # Goobstation - Changed the capitalization because it was annoying me.
+#  parent: [BaseWeaponBatterySmall, BaseCommandContraband] # Frontier: added BaseC2ContrabandUnredeemable. Goobstation: removed BaseC2ContrabandUnredeemable, added BaseCommandContraband
+#  id: WeaponEnergyGunMultiphase
+#  description: This is an expensive, modern recreation of the antique laser gun. This gun has several unique firemodes, and can recharge over time. However, unlike the gun it is a recreation of, it fires laser bolts, not beams.
+#  components:
+#  - type: Sprite
+#    sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
+#    layers:
+#    - state: base
+#      map: ["enum.GunVisualLayers.Base"]
+#    - state: mode-disabler
+#      shader: unshaded
+#      map: [ "Firemode" ]
+#    - state: mag-unshaded-4
+#      map: ["enum.GunVisualLayers.MagUnshaded"]
+#      shader: unshaded
+#  - type: Clothing
+#    quickEquip: false # Frontier
+#    slots: # Frontier
+#    # - Back # Frontier
+#    - backStorage #Frontier
+#    sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
+#  - type: Gun
+#    soundGunshot:
+#      path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
+#    soundEmpty:
+#      path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
+#  - type: Battery
+#    maxCharge: 2000
+#    startingCharge: 2000
+#  - type: ProjectileBatteryAmmoProvider
+#    proto: BulletDisabler
+#    fireCost: 100
+#  - type: EnergyGun
+#    fireModes:
+#    - proto: BulletDisabler
+#      fireCost: 100
+#      name: disabling
+#      state: disabler
+#    - proto: BulletEnergyGunLaser
+#      fireCost: 200
+#      name: lethal
+#      state: lethal
+#    - proto: BulletEnergyGunIon
+#      fireCost: 200
+#      name: ion
+#      state: special
+#  - type: MagazineVisuals
+#    magState: mag
+#    steps: 5
+#    zeroVisible: true
+#  - type: Appearance
+#  - type: GenericVisualizer
+#    visuals:
+#      enum.EnergyGunFireModeVisuals.State:
+#        Firemode:
+#          Disabler: { state: mode-disabler }
+#          Lethal: { state: mode-lethal }
+#          Special: { state: mode-ion }
+#  - type: Tag
+#    tags:
+#    - HighRiskItem
+#    - Sidearm
+#  - type: BatterySelfRecharger
+#    autoRecharge: true
+#    autoRechargeRate: 40
+#  - type: StaticPrice
+#    price: 750
+

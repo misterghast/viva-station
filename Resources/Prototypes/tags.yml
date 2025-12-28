@@ -303,10 +303,10 @@
   id: BorgModuleMedical
 
 - type: Tag
-  id: BorgModuleScience
+  id: BorgModuleService
 
 - type: Tag
-  id: BorgModuleService
+  id: BorgModuleScience
 
 - type: Tag
   id: BorgModuleSyndicate

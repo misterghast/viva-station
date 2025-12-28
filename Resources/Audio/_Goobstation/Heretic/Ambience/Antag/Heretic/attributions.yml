@@ -8,3 +8,8 @@
   license: "CC-BY-SA-3.0"
   copyright: "Taken from /tg/station"
   source: "https://github.com/tgstation/tgstation/tree/master/sound/music/antag/heretic"
+
+- files: ["VoidsEmbrace.ogg"]
+  license: "CC0-1.0"
+  copyright: "VoidsEmbrace.ogg is Chopin - Waltz in C Sharp Minor (Op. 64 No. 2). It is in public domain."
+  source: "https://gitgud.io/bobstation/necrosis13/-/tree/master/sound/ambience"

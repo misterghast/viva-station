@@ -1,0 +1,12 @@
+- type: entity
+  parent: [ ClothingBackpackSatchelLeather, BaseCCDContraband ]
+  id: CCDSatchel
+  name: CCD agent satchel
+  description: Using advanced temporal technology, this satchel lets you access its internal storage in multiple timelines!
+  components:
+  - type: Item
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,19,9

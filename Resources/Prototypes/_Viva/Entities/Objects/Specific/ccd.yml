@@ -1,0 +1,22 @@
+- type: entity
+  parent: [BaseItem, StorePresetCCD]
+  id: CCDReqRadio
+  name: CCD requisition radio
+  description: contacts the CCD requisitions office, no matter the timeline!
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: radio
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Timecrystal: 10

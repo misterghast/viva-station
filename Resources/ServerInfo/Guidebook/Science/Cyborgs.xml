@@ -36,6 +36,7 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="BorgChassisJanitor" Caption="Janitor"/>
     <GuideEntityEmbed Entity="BorgChassisService" Caption="Service"/>
     <GuideEntityEmbed Entity="BorgChassisMedical" Caption="Medical"/>
+    <GuideEntityEmbed Entity="BorgChassisScience" Caption="Science"/>
   </Box>
   <Box>
     [italic]Examples of various cyborg types[/italic]

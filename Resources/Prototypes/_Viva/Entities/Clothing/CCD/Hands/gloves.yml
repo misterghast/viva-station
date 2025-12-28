@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingHandsGlovesForensic
+  id: CCDAgentGloves
+  name: CCD agent gloves
+  description: Standard CCD Agent gloves, leaves no trace.
+  components:
+  - type: Contraband
+    severity: CCD

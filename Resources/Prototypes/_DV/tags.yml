@@ -23,3 +23,12 @@
 
 - type: Tag
   id: PermissibleForSurgery # Can be worn on the body during surgery
+
+- type: Tag
+  id: GamblagatorCartridge
+
+- type: Tag
+  id: MagazineLaser
+
+- type: Tag
+  id: CartridgeLaser

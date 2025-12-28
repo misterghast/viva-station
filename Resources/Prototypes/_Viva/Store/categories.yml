@@ -1,0 +1,7 @@
+- type: storeCategory
+  id: ParallelItems
+  name: Parallel Timeline
+
+- type: storeCategory
+  id: TimeAgentAmmo
+  name: Ammunition

@@ -1,0 +1,40 @@
+- type: entity
+  id: BaseSpeedLoaderMagnumTemporal
+  name: "speed loader (.45 magnum temporal)"
+  parent: [ BaseItem, BaseSecurityContraband ]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - SpeedLoaderMagnumTemporal
+  - type: SpeedLoader
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeMagnumTemporal
+    capacity: 6
+  - type: Sprite
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+
+- type: entity
+  id: SpeedLoaderMagnumTemporal
+  name: "speed loader (.45 magnum temporal)"
+  parent: BaseSpeedLoaderMagnumTemporal
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumTemporal
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-6
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false
+  - type: Appearance

@@ -1,0 +1,7 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCCD
+  icon:
+    sprite: /Textures/_Viva/Interface/Misc/job_icons.rsi
+    state: ccd
+  jobName: job-name-ccdagent

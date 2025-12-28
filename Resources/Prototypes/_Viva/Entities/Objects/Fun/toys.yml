@@ -1,0 +1,79 @@
+# SPDX-FileCopyrightText: 2025 miosar <janowskimiljan@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
+## Plushies
+
+
+
+
+
+
+
+
+
+
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieBvulp #Huzzah!
+  name: black vulpakin plushie
+  description: A cheaply made stuffed toy that depicts a black vulpakin with blue hair and oversized fangs. You remember seeing a shitty advert for it on space TV.
+  components:
+  - type: Sprite
+    sprite: _Viva/Objects/Fun/toys.rsi
+    state: plushie_bvulp
+
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/gekker.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_EinsteinEngines/Voice/Vulpkanin/vulpscream2.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_EinsteinEngines/Voice/Vulpkanin/vulpscream3.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_EinsteinEngines/Voice/Vulpkanin/vulpscream5.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_EinsteinEngines/Voice/Vulpkanin/vulpscream3.ogg
+  - type: Item
+    heldPrefix: plushie_bvulp
+   
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/_EinsteinEngines/Voice/Vulpkanin/vulpscream4.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/_EinsteinEngines/Voice/Vulpkanin/vulpscream1.ogg
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Blood
+        Quantity: 10
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 10
+        - ReagentId: Blood
+          Quantity: 10
+      leaky:
+        maxVol: 20
+  - type: Clothing
+    quickEquip: false
+    sprite: _Viva/Objects/Fun/toys.rsi
+    equippedPrefix: bvulp
+    slots:
+    - HEAD
+  
+  - type: Tag
+    tags:
+    - ClothMade
+    

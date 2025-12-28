@@ -10,18 +10,25 @@ SPDX-License-Identifier: MIT
 
 <Document>
   # Space Law
-  Funky Station operates under space law. All crew, passengers, and visitors aboard the station are expected to know and follow these laws (they are fairly common sense, only security and the captain need to know the times).
+  Viva Station operates under space law. All crew, passengers, and visitors aboard the station are expected to know and follow these laws (they are fairly common sense, only security and the captain need to know the times).
 
   ## Treatment Of Prisoners
 
   Prisoners still have certain rights that must be upheld by law enforcement:
-
-  - Prisoners must be granted adequate medical care. They should also be provided psychiatric and spiritual counselling if requested.
-  - Prisoners must be allowed access to communications equipment (Radios) so long as they are not abused.
-  - Prisoners must be granted clothing, food, water, shelter and safety. If the brig is no longer safe, confinement must be established in another location.
-  - Prisoners must be given access to legal counsel during an interrogation if requested and available.
+  
+  - Prisoners must be granted medical care if they are in a critical state, actively dying, or dead. Otherwise, it is not required to give prisoners medical care.
+  - Prisoners must be granted food and water on request, unless they have proven themselves to not be deserving of it by being excessively antagonistic to Security staff.
+  - Physical force is permitted against prisoners in the case that they are being disruptive or verbally combative (e.g. badmouthing officers, punching doors or other objects within the brig, or butchering clothes to make curtains.) This does not allow killing or otherwise maiming prisoners, unless said prisoners present a grave threat to life and limb.
   - Prisoners must be given their shift mandated PDA after confinement has finished. Unless there is solid proof of PDA tampering, in which case the PDA is to be secured and replaced with a fresh one.
-  - Prisoners must be granted freedom of movement, and should not be restrained with handcuffs or other devices after incarceration unless there is an undue risk to life and limb. Similarly, any prisoners held for extended or permanent confinement should be held in the communal brig, and should not be confined to a solitary cell unless they pose a risk to life and limb.
+  - Prisoners held for extended or permanent confinement should be held in the communal brig, and should not be confined to a solitary cell unless they pose a risk to life and limb.
+
+  ###   Restraints
+
+  This section covers the use of electropacks, muzzles, and handcuffs on prisoners and released criminals.
+
+  - The use of electropacks is authorized for prisoners and parolees that have been charged with Tier IV crimes or higher, pose a significant risk of escaping, and/or have been noted to be particularly violent.
+  - The use of muzzles is permitted for prisoners who are verbally antagonistic, or prisoners who have been proven to be practitioners of occult magic.
+  - The use of handcuffs is authorized for prisoners who pose a threat to life and limb, and for the transferring of inmates to another location (such as a new cell, or to the evacuation shuttle). The use of handcuffs for prisoners is also authorized in the case that the brig becomes uninhabitable, however prisoners should be returned to the brig when possible.
 
   ## Searches
 
@@ -31,22 +38,25 @@ SPDX-License-Identifier: MIT
 
   ## Implantation
 
-  Any prisoner in custody can be subjected to implantation or implant removal procedures, so long as it's within reason. The process of adding an implant should not prolong the detainees sentence, meaning you can not hold them longer to administer the implant, unless stated otherwise. A prisoner can still receive implantation procedures without meeting the circumstances if they give their clear permission.
+  Any prisoner in custody can be subjected to implantation or implant removal procedures. The process of adding an implant should not prolong the detainees sentence, meaning you can not hold them longer to administer the implant, unless stated otherwise.
 
-  [bold]Mind Shields[/bold]: Mind Shields can be administered to any inmate who is clearly brainwashed. Unlike standard implantation, you may hold a prisoner until they are issued a Mind Shield, so long as it's done in a timely fashion. If a suspect refuses to cooperate or the implant fails to function they can be charged with Refusal of Mental Shielding.
+  [bold]Loyalty Implants[/bold]: If a Tier III crime or above is committed, Loyalty Implants are authorized. For Tier IV, it is recommended. For Tier V, it is mandatory. If a suspect refuses to cooperate or the implant fails to function they can be charged with Refusal of Implantation.
 
-  Under normal circumstances, a crewmate can refuse a Mind Shield if they are not imprisoned for committing a crime.
+  Loyalty Implants are permitted below Tier III crimes with permission by both the Captain and Central Command, barring situations where command does not have time to contact Central Command.
+
+  [bold]Mindshield Implants[/bold]: Under normal circumstances, a crewmate can refuse a Mind Shield if they are not imprisoned for committing a crime.
 
   [bold]However, when there is a known threat to the station that utilizes mass brainwashing or mind control, crewmates must submit to a Mind Shield if ordered by Security. Failure to comply is to be treated as Refusal of Mental Shielding.[/bold]
 
-  # Removal
+  ###   Removal
 
-  A suspect can be forced to receive implant removal if there is strong reasonable proof that they have been implanted, such as an officer witnessing them use an implantation device or their biological information being found on a discarded injector. Unlike the implantation procedure a prisoner can have their sentence entirely delayed or extended until they comply with the procedure, as long as security are actively making attempts to preform it. Akin to implanting, if an inmate gives their clear permission, implant removal can proceed without proof.
+  A suspect can be forced to receive implant removal if permitted by either HoS or Captain.
 
   ## Sentencing
   All sentencing is to primarily be handled by the Warden, if no Warden is available the HoS is to take over that duty, if there's no HoS it falls onto the highest ranking member of Security.
 
   Use common sense and humanity when issuing punishments. You should not always seek out the highest punishment you can, you don't have to always give the maximum time or always look to demote someone. Always take in account the severity and only charge for what is needed for someone to learn their lesson.
+  However, please keep in mind that the point of punishments is to discipline disobedient staff. Do not allow crew members to feel comfortable breaking the law.
 
   [bold]Accessory, Attempting, And Intention:[/bold] If someone intentionally, knowingly and substantially assists someone in enacting a crime they can be charged with the relevant crimes, such as an engineer giving someone tools, who says they are going to break into an area. Same goes for a clear and solid attempt at a crime, or a person who shows clear intent to act out a crime, such as a syndicate nuclear operative arming a nuke but getting arrested before it goes off, they can still be charged with terrorism. Does not apply to crimes that have an attempted listing already, like attempted murder.
 
@@ -56,22 +66,18 @@ SPDX-License-Identifier: MIT
 
   [bold]Executions:[/bold] Executions may be authorized by the Captain / acting Captain after a trial has been conducted. Executions may also be approved by CentComm, following formal contact.
 
-  
-  # Repeat Offenses 
-  Offenses repeated again after having been detained for the same crime can have more time added to the recommended maximum sentencing. The general guideline is as follows: 
+
+  # Repeat Offenses
+  Offenses repeated again after having been detained for the same crime can have more time added to the recommended maximum sentencing. The general guideline is as follows:
 
   ## Second Offenses
-  [bold]Recommended Increase:[/bold] Recommended to increase sentencing time by 1.5x for the same crime only.
+  [bold]Recommended Increase:[/bold] Recommended to increase sentencing time by 2x.
 
   ## Third Offenses
-  [bold]Recommended Increase:[/bold] Recommended to increase sentencing time by 2.5x for the same crime only.
-
-  ## Further Repeat Offenders
-  If the detainee as committed the same crime more than three times in separate occasions, it will be up to the Warden's, or in absence of a Warden, the highest ranking Security Member's discretion on whether they should be put into the Permanent Brig.
-
+  [bold]Recommended Increase:[/bold] Recommended to increase sentencing time by 3x alongside a loyalty implant.
   [bold]If brigtime goes above 20 minutes, perma is highly recommended.[/bold]
 
-  
+
   # Crimes
 
   # I Degree
@@ -118,6 +124,13 @@ SPDX-License-Identifier: MIT
 
   [bold]Notes:[/bold] Painting graffiti, smashing bar glasses, and cracking internal windows is vandalism, breaking a window into space or secure areas is not.
 
+  ## Wasting Company Time
+
+  [bold]Description[/bold]: To idle while work needs to be done, or to neglect one's duty to the corporation.
+
+  [bold]Recommended Maximum Punishment[/bold]: 2:00
+
+  [bold]Notes[/bold]: Should usually be issued after a warning.
 
 
   # II Degree
@@ -170,7 +183,21 @@ SPDX-License-Identifier: MIT
 
   [bold]Notes:[/bold] Crimes like damage of property or battery are expected to be thrown on top of this charge. Leaders of a riot can be charged with all crimes that happen under their lead.
 
+  ## SOP Violation
 
+  [bold]Description[/bold]: To knowingly and willfully violate a department's standard operating procedure.
+
+  [bold]Recommended Maximum Punishment:[/bold] 5:00
+
+  [bold]Notes:[/bold] Loyalty implant recommended upon repeated instances of a person being charged with this crime.
+
+  ## Obstruction of Justice
+
+  [bold]Description[/bold]: To interfere with the process of justice.
+
+  [bold]Recommended Maximum Punishment:[/bold] 5:00
+
+  [bold]Notes:[/bold] This includes actions like interfering with arrests, destroying or tampering with evidence, or lying to security officers.
 
   # III Degree
 
@@ -293,6 +320,14 @@ SPDX-License-Identifier: MIT
   [bold]Recommended Maximum Punishment:[/bold] Permanent
 
   [bold]Notes:[/bold] Applies if the suspect is excessively uncooperative or the implant fails to function due to the mental state of the prisoner already being too far gone. If the implant fails the Recommended Maximum Punishment is upped to Expedited Execution.
+
+  ## Treason
+
+  [bold]Description[/bold]: To commit acts that, by their nature, oppose the objectives of Command and by extension Nanotrasen itself.
+
+  [bold]Recommended Maximum Punishment:[/bold] Execution
+
+  [bold]Notes:[/bold] This covers a wide range of crimes, and is meant to be more applicable than terrorism. For instance, anti-Command riots, high profile syndicate attacks, etc.
 
   ## Terrorism
 

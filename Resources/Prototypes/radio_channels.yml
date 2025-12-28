@@ -21,7 +21,7 @@
   keycode: ";"
   frequency: 1459
   color: "#2cdb2c"
-  intercomOnly: true # Imp Original
+  intercomOnly: false # Imp Original / Disabled on Funky, Reenabled on viva
 
 - type: radioChannel
   id: CentCom

@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseItem
+  id: G11Battery
+  name: KSM-5000 Battery Magazine
+  description: It's a weirdly long battery, meant for the KSM-5000. It sports a light at the front of the magazine to let you know the right way to insert it, and to let you know when the rifle is empty.
+  components:
+  - type: Tag
+    tags:
+    - G11Magazine
+  - type: HitscanBatteryAmmoProvider
+    proto: RedLaser
+    fireCost: 50
+  - type: Battery
+    maxCharge: 2250
+    startingCharge: 2250
+  - type: Item
+    storedRotation: -90
+  - type: PowerCell
+  - type: Riggable
+  - type: Sprite
+    sprite: _Viva/Objects/Power/ksm-5000_mag.rsi
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: ksmmag
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+      shader: unshaded
+  - type: Appearance
+  - type: PowerCellVisuals

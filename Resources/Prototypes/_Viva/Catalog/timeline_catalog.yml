@@ -1,0 +1,83 @@
+- type: listing
+  id: TimelineNukeDisk
+  name: nuke disk
+  description: pull the nuke disk from a parallel timeline
+  productEntity: NukeDisk
+  cost:
+    Timecrystal: 1
+  categories:
+  - ParallelItems
+
+- type: listing
+  id: TimelineAntiqueLaser
+  name: nuke disk
+  description: pull the antique laser from a parallel timeline
+  productEntity: WeaponAntiqueLaser
+  cost:
+    Timecrystal: 1
+  categories:
+  - ParallelItems
+
+- type: listing
+  id: TimelineCapJetpack
+  name: captain's jetpack
+  description: pull the captain's jetpack from a parallel timeline
+  productEntity: JetpackCaptain
+  cost:
+    Timecrystal: 1
+  categories:
+  - ParallelItems
+
+- type: listing
+  id: TimelineDigi
+  name: requsition digi-board
+  description: pull the digi-board from a parallel timeline
+  productEntity: BoxFolderQmClipboard
+  cost:
+    Timecrystal: 1
+  categories:
+  - ParallelItems
+
+- type: listing
+  id: TimelineHypospray
+  name: hypospray
+  description: pull the hypospray from a parallel timeline
+  productEntity: Hypospray
+  cost:
+    Timecrystal: 1
+  categories:
+  - ParallelItems
+
+- type: listing
+  id: TimelineMagboots
+  name: advanced magboots
+  description: pull the advanced magboots from a parallel timeline
+  productEntity: ClothingShoesBootsMagAdv
+  cost:
+    Timecrystal: 1
+  categories:
+  - ParallelItems
+
+- type: listing
+  id: TimelineEnergyShotgun
+  name: energy shotgun
+  description: pull the energy shotgun from a parallel timeline
+  productEntity: WeaponEnergyShotgun
+  cost:
+    Timecrystal: 1
+  categories:
+  - ParallelItems
+
+- type: listing
+  id: TimeAgentAmmunitionSpeeloaderTemporal
+  name: Temporal Speedloader
+  description: pulls out a spare speedloader for your revolver
+  productEntity: SpeedLoaderMagnumTemporal
+  cost:
+    Timecrystal: 1
+  categories:
+  - TimeAgentAmmo
+
+
+
+

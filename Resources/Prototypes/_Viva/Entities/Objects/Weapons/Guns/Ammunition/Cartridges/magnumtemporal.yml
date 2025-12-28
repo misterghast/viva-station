@@ -1,0 +1,27 @@
+- type: entity
+  id: BaseCartridgeMagnumTemporal
+  name: cartridge (.45 magnum temporal)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeMagnumTemporal
+  - type: CartridgeAmmo
+    proto: BulletMagnumTemporal
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: CartridgeMagnumTemporal
+  name: cartridge (.45 magnum temporal)
+  parent: BaseCartridgeMagnum
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumTemporal

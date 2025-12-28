@@ -1,0 +1,26 @@
+- type: entity
+  parent: [ OxygenTank, BaseCCDContraband ]
+  id: OxygenTankCCD
+  name: CCD hyper-capacity oxygen tank
+  description: Contains a truely impressive amount of supercooled gas
+  components:
+  - type: GasTank
+    outputPressure: 4.26
+    air:
+      volume: 25
+      moles:
+        - 51.28447625 # oxygen
+      temperature: 58.63
+
+- type: entity
+  id: NitrogenTankCCD
+  parent: [ NitrogenTank, BaseCCDContraband ]
+  name: CCD hyper-capacity nitrogen tank
+  components:
+  - type: GasTank
+    air:
+      volume: 25
+      moles:
+        - 0           # oxygen not included
+        - 51.28447625 # nitrogen
+      temperature: 58.63

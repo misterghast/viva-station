@@ -27,6 +27,7 @@ using Content.Shared.Interaction;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.VirtualItem;
 using Content.Shared.Storage.EntitySystems;
+using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
 using Robust.Shared.Input.Binding;
 
@@ -42,6 +43,7 @@ public abstract partial class SharedHandsSystem
     [Dependency] private readonly SharedStorageSystem _storage = default!;
     [Dependency] protected readonly SharedTransformSystem TransformSystem = default!;
     [Dependency] private readonly SharedVirtualItemSystem _virtualSystem = default!;
+    [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!; //Viva - Added for whitelisting
 
     protected event Action<Entity<HandsComponent>?>? OnHandSetActive;
 
@@ -61,13 +63,19 @@ public abstract partial class SharedHandsSystem
         CommandBinds.Unregister<SharedHandsSystem>();
     }
 
-    public virtual void AddHand(EntityUid uid, string handName, HandLocation handLocation, HandsComponent? handsComp = null)
+    public virtual void AddHand(EntityUid uid, string handName, HandLocation handLocation, HandsComponent? handsComp = null, EntityWhitelist? whitelist = null)
     {
         if (!Resolve(uid, ref handsComp, false))
             return;
 
         if (handsComp.Hands.ContainsKey(handName))
             return;
+
+        //Viva - checks if there's a whitelist, and if so, sets it to the hand.
+        if (whitelist != null)
+        {
+            handsComp.HandWhitelist = whitelist;
+        }
 
         var container = ContainerSystem.EnsureContainer<ContainerSlot>(uid, handName);
         container.OccludesLight = false;

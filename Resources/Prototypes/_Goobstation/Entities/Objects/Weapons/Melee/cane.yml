@@ -9,7 +9,7 @@
 - type: entity
   name: cane blade
   suffix: Nanotrasen
-  parent: BaseItem
+  parent: [BaseItem, BaseCentcommContraband]
   id: CaneBladeNanotrasen
   description: A sharp blade with a cane shaped hilt, a Nanotrasen logo is engraved on the blade.
   components:
@@ -19,10 +19,10 @@
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 65
-    attackRate: 1.25
+    attackRate: 1
     damage:
       types:
-        Slash: 10
+        Slash: 16
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item

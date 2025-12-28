@@ -1,9 +1,9 @@
+
 // SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 //
 // SPDX-License-Identifier: MIT
-
 using Content.Server.Inventory;
 using Content.Server.Radio.Components;
 using Content.Shared.Inventory;
@@ -11,6 +11,7 @@ using Content.Shared.Silicons.Borgs;
 using Content.Shared.Silicons.Borgs.Components;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Content.Server.Silicons.Laws;
 
 namespace Content.Server.Silicons.Borgs;
 
@@ -21,6 +22,8 @@ public sealed class BorgSwitchableTypeSystem : SharedBorgSwitchableTypeSystem
 {
     [Dependency] private readonly BorgSystem _borgSystem = default!;
     [Dependency] private readonly ServerInventorySystem _inventorySystem = default!;
+    [Dependency] private readonly SiliconLawSystem _lawSystem = default!;
+    //private readonly BorgTypePrototype _borgPrototype = default!;
 
     protected override void SelectBorgModule(Entity<BorgSwitchableTypeComponent> ent, ProtoId<BorgTypePrototype> borgType)
     {
@@ -56,6 +59,9 @@ public sealed class BorgSwitchableTypeSystem : SharedBorgSwitchableTypeSystem
 
             _borgSystem.SetModuleWhitelist(chassisEnt, prototype.ModuleWhitelist);
 
+            //Viva Configure borg hand whitelist
+            _borgSystem.SetHandWhitelist(chassisEnt, prototype.HandWhitelist);
+
             foreach (var module in prototype.DefaultModules)
             {
                 var moduleEntity = Spawn(module);
@@ -81,6 +87,13 @@ public sealed class BorgSwitchableTypeSystem : SharedBorgSwitchableTypeSystem
         if (TryComp(ent, out InventoryComponent? inventory))
         {
             _inventorySystem.SetTemplateId((ent.Owner, inventory), prototype.InventoryTemplateId);
+        }
+
+        //Viva - If the chassis has a specific lawset, change to that lawset.
+        if (prototype.ChassisLawset != null)
+        {
+            var newLaws = _lawSystem.GetLawset(prototype.ChassisLawset);
+            _lawSystem.SetLaws(newLaws.Laws, ent);
         }
 
         base.SelectBorgModule(ent, borgType);

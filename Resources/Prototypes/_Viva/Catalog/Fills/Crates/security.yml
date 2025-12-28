@@ -1,0 +1,10 @@
+- type: entity
+  id: CrateSecurityLoyaltyImplants
+  name: implanter crate
+  description: Contains 4 Loyalty Implanters.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: LoyaltyImplanter
+        amount: 4

@@ -1,0 +1,13 @@
+- type: entity
+  id: StorePresetCCD
+  abstract: true
+  components:
+  - type: Store
+    name: time-agent-uplink
+    categories:
+    - ParallelItems
+    - TimeAgentAmmo
+    currencyWhitelist:
+    - Timecrystal
+    balance:
+      Timecrystal: 0

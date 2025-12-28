@@ -1,3 +1,5 @@
+
+using Content.Server._Viva.GameTicking.Rules.Components;
 // SPDX-FileCopyrightText: 2022 Visne <39844191+Visne@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2022 drakewill-CRL <46307022+drakewill-CRL@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
@@ -40,7 +42,7 @@
 //
 // SPDX-License-Identifier: MIT
 
-using Content.Server._DV.CosmicCult.Components;
+using Content.Server._DV.CosmicCult.Components; // DeltaV
 using Content.Server.Administration.Commands;
 using Content.Server.Antag;
 using Content.Server.GameTicking;
@@ -298,6 +300,21 @@ public sealed partial class AdminVerbSystem
             Message = Loc.GetString("admin-verb-make-malfai")
         };
         args.Verbs.Add(malfAi);
+
+        // Viva - CCD agent
+        Verb timeAgentAntag = new()
+        {
+            Text = "CCD Agent",
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new("/Textures/Objects/Fun/bikehorn.rsi"), "icon"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<TimeAgentRuleComponent>(targetPlayer, "TimeAgent");
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-agent")
+        };
+        args.Verbs.Add(timeAgentAntag);
 
         var paradoxCloneName = Loc.GetString("admin-verb-text-make-paradox-clone");
         Verb paradox = new()

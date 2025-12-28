@@ -122,6 +122,16 @@ public abstract partial class SharedHandsSystem : EntitySystem
         if (!CanPickupToHand(uid, entity, hand, checkActionBlocker, handsComp, item))
             return false;
 
+        //Viva - check if there is a whitelist and, if so, the item is whitelisted. Drop if it is not
+        if (handsComp.HandWhitelist != null)
+        {
+            if (_whitelistSystem.IsWhitelistFail(handsComp.HandWhitelist, entity))
+            {
+                TryDrop(uid, entity);
+                return false;
+            }
+        }
+
         if (animate)
         {
             var xform = Transform(uid);

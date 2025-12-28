@@ -62,6 +62,7 @@
             - SubdermalImplant
       allowDeimplantAll: false
       deimplantWhitelist:
+      - LoyaltyImplant
       - SadTromboneImplant
       - LightImplant
       - BikeHornImplant

@@ -1,0 +1,5 @@
+- type: gamePreset
+  id: TimeAgentNoOthers
+  name: CCD
+  rules:
+    - TimeAgent

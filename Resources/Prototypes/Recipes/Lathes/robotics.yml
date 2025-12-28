@@ -195,4 +195,9 @@
 
 # Science Modules (if we add a advanced sci module that requires crafting)
 
+- type: latheRecipe
+  parent: BaseGoldBorgModuleRecipe
+  id: BorgModuleAdvancedAnomaly
+  result: BorgModuleAdvancedAnomaly
+
 # Service Modules

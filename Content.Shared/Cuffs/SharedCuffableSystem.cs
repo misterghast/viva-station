@@ -79,7 +79,6 @@ using Robust.Shared.Player;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
 using PullableComponent = Content.Shared.Movement.Pulling.Components.PullableComponent;
-using Content.Shared.Standing;
 
 namespace Content.Shared.Cuffs
 {

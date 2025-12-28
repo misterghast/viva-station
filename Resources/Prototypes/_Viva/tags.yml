@@ -1,0 +1,47 @@
+- type: Tag
+  id: CartridgeMagnumTemporal
+
+- type: Tag
+  id: SpeedLoaderMagnumTemporal
+
+- type: Tag
+  id: CCDAgentGarb
+
+- type: Tag
+  id: CCDAgentJacket
+
+- type: Tag
+  id: CCDAgentGlasses
+
+- type: Tag
+  id: CCDAgentShoes
+
+- type: Tag
+  id: CCDAgentGloves
+
+- type: Tag
+  id: CCDAgentUplink
+
+- type: Tag
+  id: CCDAgentTie
+
+- type: Tag
+  id: CCDAgentRevolver
+
+- type: Tag
+  id: CCDAgentHolster
+
+- type: Tag
+  id: CCDAgentSpeedloader
+
+- type: Tag
+  id: CCDAgentMediPen
+
+- type: Tag
+  id: CCDAgentHat
+
+- type: Tag
+  id: CCDAgentSatchel
+
+- type: Tag
+  id: G11Magazine

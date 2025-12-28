@@ -1,0 +1,14 @@
+- type: entity
+  name: CCD multi-purpose pocket knife
+  parent: [ ToolDebug, BaseCCDContraband ]
+  id: ToolCCD
+  description: A pocket knife given to all CCD agents. It has a variety of tools attached to its various blades.
+  components:
+  - type: Sprite
+    sprite: _Viva/Objects/Tools/ccdomni.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Viva/Objects/Tools/ccdomni.rsi
+    quickEquip: false
+    slots:
+      - Belt

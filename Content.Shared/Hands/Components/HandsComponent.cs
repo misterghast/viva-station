@@ -42,6 +42,7 @@
 
 using Content.Shared.DisplacementMap;
 using Content.Shared.Hands.EntitySystems;
+using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
@@ -143,6 +144,12 @@ public sealed partial class HandsComponent : Component
     /// </summary>
     [DataField]
     public bool CanBeStripped = true;
+
+    /// <summary>
+    /// Viva - This is a whitelist for what types of entities can be held in this hand.
+    /// The whitelist is pulled from elsewhere and stored here ease of access.
+    ///</summary>
+    public EntityWhitelist? HandWhitelist;
 }
 
 [Serializable, NetSerializable]

@@ -1,0 +1,53 @@
+- type: entity
+  id: BookClearance1
+  parent: BaseGuidebook
+  name: SOP Clearance Level 1
+  description: A set of Nanotrasen guidelines for standard operating procedure. Informating restricted to Clearance level 1.
+  components:
+  - type: Sprite
+    layers:
+    - state: paper
+    - state: cover_strong
+      color: "#013287"
+    - state: icon_law
+      color: "#f7d61a"
+  - type: GuideHelp
+    guides:
+    - CommandSOPClearanceLevel1
+
+- type: entity
+  id: BookClearance2
+  parent: BaseGuidebook
+  name: SOP Clearance Level 2
+  description: A set of Nanotrasen guidelines for standard operating procedure. Informating restricted to Clearance level 2.
+  components:
+  - type: Sprite
+    layers:
+    - state: paper
+    - state: cover_strong
+      color: "#013287"
+    - state: icon_law
+      color: "#f7d61a"
+  - type: GuideHelp
+    guides:
+    - CommandSOPClearanceLevel1
+    - CommandSOPClearanceLevel2
+
+- type: entity
+  id: BookClearance3
+  parent: BaseGuidebook
+  name: SOP Clearance Level 3
+  description: A set of Nanotrasen guidelines for standard operating procedure. Informating restricted to Clearance level 3.
+  components:
+  - type: Sprite
+    layers:
+    - state: paper
+    - state: cover_strong
+      color: "#013287"
+    - state: icon_law
+      color: "#f7d61a"
+  - type: GuideHelp
+    guides:
+    - CommandSOPClearanceLevel1
+    - CommandSOPClearanceLevel2
+    - CommandSOPClearanceLevel3

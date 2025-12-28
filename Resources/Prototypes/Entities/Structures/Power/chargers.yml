@@ -146,6 +146,7 @@
         blacklist:
           tags:
           - NoRecharge  # Assmos - Crystallizer
+          - GamblagatorCartridge #DeltaV - Disallows recharging of superweapon
 
 - type: entity
   parent: [ BaseItemRecharger, ConstructibleMachine ]
@@ -185,6 +186,7 @@
         blacklist:
           tags:
           - NoRecharge  # Assmos - Crystallizer
+          - GamblagatorCartridge #DeltaV - Disallows recharging of superweapon
   - type: Machine
     board: PowerCageRechargerCircuitboard
   - type: StaticPrice
@@ -214,6 +216,7 @@
           - MaterialEnergy
           tags:
           - NoRecharge  # Assmos - Crystallizer
+          - GamblagatorCartridge #DeltaV - Disallows recharging of superweapon
 
 - type: entity
   parent: BaseItemRecharger
@@ -241,6 +244,7 @@
           tags:
           - PotatoBattery
           - NoRecharge  # Assmos - Crystallizer
+          - GamblagatorCartridge #DeltaV - Disallows recharging of superweapon
           components:  # Goobstation
           - MaterialEnergy
 
@@ -272,6 +276,7 @@
         blacklist:
           tags:
           - NoRecharge  # Assmos - Crystallizer
+          - GamblagatorCartridge #DeltaV - Disallows recharging of superweapon
 
 - type: entity
   parent: BaseRecharger

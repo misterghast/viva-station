@@ -67,6 +67,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Wasting Company Time
       </Box>
     </ColorBox>
     <ColorBox>
@@ -180,6 +181,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Treason
       </Box>
     </ColorBox>
     <ColorBox Color="#9698ED">
@@ -189,6 +191,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Obstruction of Justice
       </Box>
     </ColorBox>
     <ColorBox Color="#9698ED">
@@ -211,6 +214,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        SOP Violation
       </Box>
     </ColorBox>
     <ColorBox Color="#ffce93">
@@ -324,6 +328,21 @@ SPDX-License-Identifier: MIT
         Painting graffiti, smashing bar glasses, and cracking internal windows is vandalism, breaking a window into space or secure areas is not.
       </Box>
     </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Wasting Company Time
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      To idle while work needs to be done, or to neglect one's duty to the corporation.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Should only be issued after a warning.
+      </Box>
+    </ColorBox>
   </Table>
 
   ## II Degree Crimes
@@ -435,6 +454,36 @@ SPDX-License-Identifier: MIT
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Crimes like damage of property or battery are expected to be thrown on top of this charge.
         Leaders of a riot can be charged with all crimes that happen under their lead.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        SOP Violation
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        To knowingly and willfully violate a department's standard operating procedure.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Loyalty implant recommended upon repeated instances of someone being charged with this crime.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Obstruction of Justice
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        To interfere with the process of justice.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        This includes actions like interfering with arrests, destroying or tampering with evidence, or lying to security officers.
       </Box>
     </ColorBox>
   </Table>
@@ -713,6 +762,21 @@ SPDX-License-Identifier: MIT
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Applies if the suspect is excessively uncooperative or the implant fails to function due to the mental state of the prisoner already being too far gone.
         If the implant fails the Recommended Maximum Punishment is upped to Expedited Execution.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+    <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      Treason
+    </Box>
+    </ColorBox>
+    <ColorBox>
+    <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      To commit acts that, by their nature, oppose the objectives of Command and by extension Nanotrasen itself.
+    </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        This covers a wide range of crimes, and is meant to be more applicable than terrorism. For instance, anti-Command riots, high profile syndicate attacks, etc.
       </Box>
     </ColorBox>
     <ColorBox>

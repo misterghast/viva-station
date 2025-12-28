@@ -1,0 +1,27 @@
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyCCD
+  name: CCD encryption key
+  description: Stretches through time and space itself!
+  components:
+  - type: EncryptionKey
+    channels:
+    - Common
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    - Freelance
+    - Binary
+    - Handheld
+    - CentCom
+    - CCDRadio
+    - Syndicate
+  - type: Sprite
+    sprite: Objects/Devices/encryption_keys.rsi
+    layers:
+    - state: crypt_silver
+    - state: nano_label

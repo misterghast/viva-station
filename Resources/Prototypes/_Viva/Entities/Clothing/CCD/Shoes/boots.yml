@@ -1,0 +1,8 @@
+- type: entity
+  parent: [ ClothingShoesBootsLaceup, BaseCCDContraband]
+  id: ClothingShoesBootsCCD
+  name: CCD Agent Shoes
+  description: A pair of CCD Agent shoes. They seem to always have firm traction.
+  components:
+  - type: NoSlip
+  - type: Magboots

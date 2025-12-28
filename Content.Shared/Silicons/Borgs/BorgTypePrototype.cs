@@ -1,3 +1,4 @@
+
 // SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
@@ -58,6 +59,13 @@ public sealed partial class BorgTypePrototype : IPrototype
     /// <seealso cref="BorgChassisComponent.ModuleWhitelist"/>
     [DataField]
     public EntityWhitelist? ModuleWhitelist { get; set; }
+
+    /// <summary>
+    /// Viva - the whitelist for items that can be held in this borg type's hands.
+    /// </summary>
+    /// <seealso cref="BorgChassisComponent.HandWhitelist"/>
+    [DataField]
+    public EntityWhitelist? HandWhitelist { get; set; }
 
     /// <summary>
     /// Inventory template used by this borg.
@@ -159,4 +167,10 @@ public sealed partial class BorgTypePrototype : IPrototype
     /// </summary>
     [DataField]
     public SoundSpecifier FootstepCollection { get; set; } = new SoundCollectionSpecifier(DefaultFootsteps);
+
+    /// <summary>
+    /// Viva - The lawset that the chassis is using, if it is specifically set.
+    /// </summary>
+    [DataField]
+    public string? ChassisLawset { get; set; }
 }

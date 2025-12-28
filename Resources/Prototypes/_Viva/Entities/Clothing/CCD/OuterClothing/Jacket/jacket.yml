@@ -1,0 +1,37 @@
+- type: entity
+  parent: [ ClothingOuterStorageBase, BaseCCDContraband, AllowTankStorageClothing ]
+  id: ClothingOuterCoatCCD
+  name: CCD Agent Jacket
+  description: A standard edition protective jacket for a CCD Agent. Uses a paradox to be both armored and not armored at the same time, alongside being fireproof!. Neat! (also functions as a hardsuit!)
+  components:
+  - type: Sprite
+    sprite: _Viva/Clothing/OuterClothing/ccdcoat.rsi
+  - type: Clothing
+    sprite: _Viva/Clothing/OuterClothing/ccdcoat.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
+  - type: FireResistance
+    damageCoefficient: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.25
+        Slash: 0.25
+        Piercing: 0.25
+        Heat: 0.25
+        Radiation: 0
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ToggleableClothing
+    clothingPrototype: CCDProjectedHelmet
+  - type: StasisBlinkProvider
+  - type: Tag
+    tags:
+    - CCDAgentJacket

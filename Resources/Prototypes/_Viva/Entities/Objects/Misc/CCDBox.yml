@@ -1,0 +1,36 @@
+- type: entity
+  id: CCDAgentBox
+  parent: [ BaseItem, BaseCCDContraband ]
+  name: CCD agent equipment box
+  description: A box containing all items a CCD agent could need!
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/bikehorn.rsi
+    state: icon
+  - type: SpawnItemsOnUse
+    items:
+      - id: WeaponRevolverCCD
+      - id: MindShieldImplanter
+      - id: SpeedLoaderMagnumTemporal
+      - id: SpeedLoaderMagnumTemporal
+      - id: SpeedLoaderMagnumTemporal
+      - id: SpeedLoaderMagnumTemporal
+      - id: CCDReqRadio
+      - id: CCDGlasses
+      - id: ClothingNeckTieCCD
+      - id: ClothingOuterCoatCCD
+      - id: ClothingBeltHolsterCCD
+      - id: ClothingShoesBootsCCD
+      - id: ClothingHeadHatFedoraBrown
+      - id: CCDAgentGloves
+      - id: ClothingUniformCCD
+      - id: StasiziumAutoInjector
+      - id: StasiziumAutoInjector
+      - id: CCDSatchel
+      - id: BluespaceLifelineImplanter
+      - id: FreedomImplanter
+      - id: ClothingHeadsetCCD
+      - id: CCDPDA
+      - id: NitrogenTankCCD
+      - id: OxygenTankCCD
+      - id: ToolCCD

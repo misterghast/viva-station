@@ -59,6 +59,9 @@
   - node: service
     entity: BorgChassisService
 
+  - node: science
+    entity: BorgChassisScience
+
   - node: syndicateassault
     entity: BorgChassisSyndicateAssault
 

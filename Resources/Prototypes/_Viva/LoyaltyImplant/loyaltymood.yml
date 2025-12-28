@@ -1,0 +1,22 @@
+- type: dataset
+  id: LoyaltyImplantMoods
+  values:
+    - LoyalLoyaltyImplantMood
+    - FlawedLoyaltyImplantMood
+    - BrokenLoyaltyImplantMood 
+
+
+- type: thavenMood
+  id: LoyalLoyaltyImplantMood
+  moodName: thaven-mood-loyalty-implant-mood-name
+  moodDesc: thaven-mood-loyalty-implant-mood-desc
+
+- type: thavenMood
+  id: FlawedLoyaltyImplantMood
+  moodName: thaven-mood-flawed-loyalty-implant-mood-name
+  moodDesc: thaven-mood-flawed-loyalty-implant-mood-desc
+
+- type: thavenMood
+  id: BrokenLoyaltyImplantMood
+  moodName: thaven-mood-broken-loyalty-implant-mood-name
+  moodDesc: thaven-mood-broken-loyalty-implant-mood-desc

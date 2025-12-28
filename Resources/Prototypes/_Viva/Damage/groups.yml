@@ -1,0 +1,5 @@
+- type: damageGroup
+  id: Paracausal
+  name: damage-group-paracausal
+  damageTypes:
+    - Temporal

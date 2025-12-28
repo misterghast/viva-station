@@ -1,0 +1,10 @@
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleTimeAgent
+  name: CCD Agent Role
+  components:
+  - type: MindRole
+    antagPrototype: TimeAgent
+    exclusiveAntag: true
+    roleType: SoloAntagonist
+  - type: TimeAgentRole

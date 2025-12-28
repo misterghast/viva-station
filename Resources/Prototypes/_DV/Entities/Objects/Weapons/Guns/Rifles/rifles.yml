@@ -1,0 +1,60 @@
+- type: entity
+  parent: [ BaseWeaponSubMachineGun, BaseGunWieldable, BaseCentcommContraband ]
+  id: WeaponRifleLaser
+  name: IK-30
+  description: A lightweight submachine gun that uses disposable laser cartridges rather than an internal power cell. However, it has a surprising amount of kickback, so wielding is recommended.
+  components:
+  - type: Sprite
+    sprite: _DV/Objects/Weapons/Guns/Rifles/lasercarbine.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+  - type: Clothing
+    sprite: _DV/Objects/Weapons/Guns/Rifles/lasercarbine.rsi
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: null
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -19
+    maxAngle: -16
+  - type: Gun
+    minAngle: 21
+    maxAngle: 32
+    fireRate: 3
+    burstFireRate: 6
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    - Burst
+    soundGunshot:
+      path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLaser
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineLaser
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLaser
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeLaser
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance

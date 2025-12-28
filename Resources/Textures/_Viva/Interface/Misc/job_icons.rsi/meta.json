@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "Created by Ratsmageddon, inspired by future icon. Implemented by T4D2",
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+	{
+	  "name": "ccd",
+	  "delays": [
+	  [
+		  0.2,
+		  0.2,
+		  0.2,
+		  0.2
+	  ]
+	  ]
+	}
+    ]
+}

@@ -1,0 +1,11 @@
+- type: entity
+  id: BulletMagnumTemporal
+  name: bullet (.45 magnum temporal)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 35
+        Temporal: 5

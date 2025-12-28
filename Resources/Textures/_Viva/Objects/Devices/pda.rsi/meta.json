@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Made by Ratsmageddon, implemented by T4D2",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+	{
+       "name": "pda-ccd",
+       "delays": [
+              [
+                  1.2,
+                  1.2,
+                  1.2,
+                  1.2
+              ]
+          ]
+      },
+	{
+      "name": "id_overlay"
+    },
+	{
+      "name": "light_overlay"
+	}
+  ]
+}

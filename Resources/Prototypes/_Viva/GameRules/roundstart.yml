@@ -1,0 +1,28 @@
+- type: entity
+  abstract: true
+  parent: BaseGameRule
+  id: BaseTimeAgentRule
+  components:
+  - type: TimeAgentRule
+  - type: AntagSelection
+
+- type: entity
+  parent: BaseTimeAgentRule
+  id: TimeAgent
+  components:
+  - type: GameRule
+    minPlayers: 15
+  - type: AntagSelection
+    selectionTime: PrePlayerSpawn
+    definitions:
+    - prefRoles: [ TimeAgent ]
+      max: 1
+      blacklist:
+        components:
+        - AntagImmune
+        - Changeling
+      mindRoles:
+      - MindRoleTimeAgent
+      startingGear: TimeAgentGear
+      briefing:
+        sound: "/Audio/_Viva/Misc/ccd-intro.ogg"

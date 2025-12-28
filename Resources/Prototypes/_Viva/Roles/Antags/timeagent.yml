@@ -1,0 +1,12 @@
+- type: antag
+  id: TimeAgent
+  name: CCD Agent
+  antagonist: true
+  setPreference: false
+  objective: roles-antag-time-agent-objective
+
+- type: startingGear
+  id: TimeAgentGear
+  storage:
+    back:
+    - CCDAgentBox

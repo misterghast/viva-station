@@ -184,7 +184,7 @@
   license: "CC-BY-NC-3.0"
   copyright: "joeseph"
   source: "https://funkystation.org"
-  
+
 - files: ["usualsuspects.webp"]
   license: "CC-BY-NC-3.0"
   copyright: "basil"
@@ -199,3 +199,8 @@
   license: "CC-BY-NC-3.0"
   copyright: "nikitavix on Discord"
   source: "https://funkystation.org"
+
+- files: ["cargomajor.webp"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "fuzyfries on Discord"
+  source: "https://fuzyfries.straw.page/"

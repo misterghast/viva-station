@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseItem
+  id: GamblagatorCapacitor
+  name: bluespace capacitive cell
+  description: A capacitive cell made with the positive charge of bluespace crystals, designed to power the EX-520 rifle. The cells are useless once discharged, as the technology required to charge them does not exist on station.
+  components:
+  - type: Tag
+    tags:
+    - GamblagatorCartridge
+  - type: HitscanBatteryAmmoProvider
+    proto: GamblagatorLaser
+    fireCost: 1000
+  - type: Battery
+    maxCharge: 5000 # Shenanigan Prevention
+    startingCharge: 5000
+  - type: Item
+    storedRotation: -90
+  - type: PowerCell
+  - type: Riggable
+  - type: Sprite
+    sprite: _DV/Objects/Power/gamblagator_capacitors.rsi
+    state: capacitor

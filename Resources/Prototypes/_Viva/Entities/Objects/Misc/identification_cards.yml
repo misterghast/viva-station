@@ -1,0 +1,19 @@
+- type: entity
+  parent: [ IDCardStandard, BaseCCDContraband ]
+  id: CCDAgentIDCard
+  name: CCD ID card
+  description: A card belonging to a CCD agent
+  components:
+  - type: AgentIDCard
+  - type: Sprite
+    sprite: _Viva/Objects/Misc/id_cards.rsi
+    state: ccd
+  - type: Access
+    tags:
+    - Maintenance
+    - External
+  - type: IdCard
+    jobTitle: job-name-ccdagent
+    jobIcon: JobIconCCD
+  - type: NanoChatCard # DeltaV
+    listNumber: false

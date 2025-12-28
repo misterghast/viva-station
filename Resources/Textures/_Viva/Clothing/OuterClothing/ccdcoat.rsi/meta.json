@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "gentlecoat.rsi edit by T4D2",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-OUTERCLOTHING",
+      "directions": 4
+    }
+  ]
+}

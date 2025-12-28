@@ -1,3 +1,4 @@
+
 // SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
@@ -6,9 +7,9 @@
 // SPDX-FileCopyrightText: 2024 deltanedas <39013340+deltanedas@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2025 biteymcstabface
 //
 // SPDX-License-Identifier: MIT
-
 using Content.Shared.Alert;
 using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
@@ -89,6 +90,12 @@ public sealed partial class BorgChassisComponent : Component
 
     [DataField]
     public ProtoId<AlertPrototype> NoBatteryAlert = "BorgBatteryNone";
+
+    /// <summary>
+    /// Viva - used for borg hands whitelisting
+    /// </summary>
+    [DataField("handWhitelist")]
+    public EntityWhitelist? HandWhitelist;
 }
 
 [Serializable, NetSerializable]

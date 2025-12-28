@@ -1,0 +1,13 @@
+- type: entity
+  parent: [ ClothingBeltStorageBase, BaseCCDContraband ]
+  id: ClothingBeltHolsterCCD
+  name: CCD Agent Shoulder Holster
+  description: 'A holster to carry a typical CCD Agent Revolver'
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/holster.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/holster.rsi
+  - type: Storage
+    grid:
+    - 0,0,3,3
